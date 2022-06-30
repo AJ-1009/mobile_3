@@ -1,0 +1,922 @@
+html {
+    font-size: 62.50%;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.burger{
+    display: none;
+}
+.side{
+    display: none;
+}
+.social_2{
+    display: none;
+}
+.logo_2{
+    display: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    border: .4rem solid #39ff14;
+    border-radius: 2rem;
+    padding: 0rem 1.2rem;
+    transition: 1.5s;
+    color: white;
+    background-color: black;
+}
+#logo_1 {
+    width: 4rem;
+    border: .5px solid red;
+}
+.part1 {
+    border: .5px solid red;
+    position: absolute;
+    display: flex;
+    top: 4.1rem;
+    left: 10rem;
+}
+#name_1 {
+    width: 11.6rem;
+    height: 3rem;
+    margin-top: .5rem;
+    margin-left: .978rem;
+    font-size: 2.2rem;
+    border: .5px solid red;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.section_1 {
+    position: absolute;
+    font-size: 1.8rem;
+    line-height: 2.43rem;
+    justify-content: center;
+    border: .5px solid red;
+    color: black;
+}
+
+#about {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.43rem;
+    border: .5px solid red;
+}
+
+#about_2 {
+    position: absolute;
+    top: 146.4rem;
+    background-color: black;
+    left: 10rem;
+    padding: 1.2rem 2rem;
+    color: white;
+     border: .5px solid red;
+}
+
+#contact_1 {
+    position: absolute;
+    top: 3.6rem;
+    left: 99.3rem;
+    padding: 1.2rem 2rem;
+    background-color: black;
+    color: white;
+     border: .5px solid red;
+}
+
+#divli {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.43rem;
+     border: .5px solid red;
+}
+
+#work_1 {
+    left: 82.4rem;
+    width: 5.3rem;
+    top: 4.9rem;
+     border: .5px solid red;
+    height: 2.4rem;
+}
+
+#work_2 {
+    position: absolute;
+    left: 25.45rem;
+    top: 42.4rem;
+    font-size: 1.8rem;
+    line-height: 2.43rem;
+    border: .5px solid red;
+
+}
+
+#about_1 {
+    top: 4.9rem;
+    left: 90.9rem;
+    width: 5.3rem;
+    height: 2.4rem;
+    border: .5px solid red;
+}
+
+#contact_2 {
+    position: absolute;
+    top: 41.2rem;
+    background-color: #2660FF;
+    left: 10rem;
+    padding: 1.2rem 2rem;
+    color: white;
+     border: .5px solid red;
+}
+
+#con {
+    font-size: 1.8rem;
+    line-height: 2.43rem;
+    border: .5px solid red;
+}
+
+#get {
+    position: absolute;
+    top: 16.6rem;
+    left: 10rem;
+    font-size: 7.2rem;
+    line-height: 7.6rem;
+    width: 43.9rem;
+    height: 15.2rem;
+     border: .5px solid red;
+}
+
+#web {
+    position: absolute;
+    top: 35rem;
+    left: 10rem;
+    font-size: 2.2rem;
+    width: 27.1rem;
+    height: 3rem;
+    color: #81889E;
+     border: .5px solid red;
+    line-height: 3rem;
+}
+
+#photo_1 {
+    position: absolute;
+    top: 54.2rem;
+    left: 10rem;
+    font-size: 2.2rem;
+     border: .5px solid red;
+}
+
+#first {
+    width: 100.3rem;
+     border: .5px solid red;
+}
+
+.bold {
+    position: absolute;
+    left: 81.1rem;
+    font-size: 8rem;
+    line-height: 7.3rem;
+     border: .5px solid red;
+    height: 7.3rem;
+}
+
+.normal {
+    position: absolute;
+    height: 1.6rem;
+     border: .5px solid red;
+    font-size: 1.8rem;
+    left: 81.1rem;
+    line-height: 1.6rem;
+}
+
+#num1 {
+    top: 123.5rem;
+    width: 13.3rem;
+     border: .5px solid red;
+}
+
+#num2 {
+    top: 138rem;
+    width: 10.1rem;
+     border: .5px solid red;
+}
+
+#sen1 {
+    top: 132.4rem;
+     border: .5px solid red;
+    width: 19.2rem;
+}
+
+#sen2 {
+    top: 146.9rem;
+    width: 6.8rem;
+     border: .5px solid red;
+}
+
+#lorem1 {
+    position: absolute;
+    top: 120.6rem;
+    left: 10rem;
+    width: 57.3rem;
+    height: 23.4rem;
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+     border: .5px solid red;
+}
+
+#work {
+    position: absolute;
+    top: 166.4rem;
+    left: 10.0rem;
+    font-size: 7.2rem;
+    line-height: 7.6rem;
+     border: .5px solid red;
+}
+
+#circle {
+    position: absolute;
+    top: 167.9rem;
+    left: 35.0rem;
+    border: .5px solid red;
+    width: 5rem;
+}
+
+#arrow {
+    position: absolute;
+    top: 169.455rem;
+    left: 36.159rem;
+     border: .5px solid red;
+     width: 2.9rem;
+}
+
+#third {
+    position: absolute;
+    width: 49.7rem;
+    top: 180.0rem;
+    left: 54.6rem;
+     border: .5px solid red;
+}
+
+#sec {
+    position: absolute;
+    top: 180.0rem;
+    left: 16.0rem;
+    width: 35rem;
+     border: .5px solid red;
+}
+
+#forth {
+    position: absolute;
+    top: 237.5rem;
+    width: 49.7rem;
+    left: 16.0rem;
+     border: .5px solid red;
+}
+
+#fifth {
+    position: absolute;
+    top: 232.4rem;
+    left: 69.3rem;
+    width: 35rem;
+    padding-top: 5.1rem;
+     border: .5px solid red;
+}
+
+#we {
+    position: absolute;
+    font-size: 2.4rem;
+    top: 229.4rem;
+    left: 16.0rem;
+    width: 8.9rem;
+    height: 2.5rem;
+     border: .5px solid red;
+}
+
+#wellness {
+    position: absolute;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    top: 229.4rem;
+    left: 54.6rem;
+     border: .5px solid red;
+}
+
+#medora {
+    position: absolute;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    top: 286.9rem;
+    left: 16.0rem;
+     border: .5px solid red;
+}
+#carnival {
+    position: absolute;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    top: 286.9rem;
+    left: 69.3rem;
+     border: .5px solid red;
+}
+#part8 {
+    position: absolute;
+    top: 304.4rem;
+    width: 100%;
+    height: 90.0rem;
+    background-color: black;
+    /* border: 2rem solid red; */
+    color: white;
+     border: .5px solid red;
+}
+#review {
+    position: absolute;
+    top: 8.0rem;
+    left: 10.0rem;
+    font-size: 7.2rem;
+    height: 7.6rem;
+    line-height: 7.6rem;
+     border: .5px solid red;
+}
+#dp_1 {
+    position: absolute;
+    top: 21.2rem;
+    left: 23.65rem;
+    width: 5.7rem;
+     border: .5px solid red;
+}
+#dp_2 {
+    position: absolute;
+     border: .5px solid red;
+    top: 52.8rem;
+    left: 23.65rem;
+    width: 5.7rem;
+}
+#name1 {
+    position: absolute;
+    top: 21.4rem;
+    left: 30.95rem;
+    font-size: 2.0rem;
+     border: .5px solid red;
+}
+#rating1 {
+    position: absolute;
+    filter: invert(100%);
+    left: 30.95rem;
+    top: 24.8rem;
+    width: 1.9rem;
+    display: flex;
+     border: .5px solid red;
+}
+#rating2 {
+    position: absolute;
+    filter: invert(100%);
+    left: 30.95rem;
+    top: 56.4rem;
+    width: 1.9rem;
+    display: flex;
+     border: .5px solid red;
+}
+#name2 {
+    position: absolute;
+    top: 53.0rem;
+    left: 30.95rem;
+    font-size: 2.0rem;
+     border: .5px solid red;
+}
+#comment1 {
+    position: absolute;
+    top: 29.2rem;
+    left: 23.65rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 73.0rem;
+    height: 21.0rem;
+    line-height: 3.0rem;
+    color: #81889E;
+     border: .5px solid red;
+}
+#comment2 {
+    position: absolute;
+    top: 60.8rem;
+    left: 23.65rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 73.0rem;
+    height: 21.0rem;
+    line-height: 3.0rem;
+    color: #81889E;
+     border: .5px solid red;
+}
+#faqs {
+    position: absolute;
+    top: 409.2rem;
+    left: 10.0rem;
+    width: 43.9rem;
+    height: 7.6rem;
+    font-size: 7.2rem;
+    font-weight: 400;
+    line-height: 7.6rem;
+     border: .5px solid red;
+}
+.ques {
+    position: absolute;
+    left: 10.0rem;
+    width: 67.3rem;
+    height: 3.9rem;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 3.9rem;
+     border: .5px solid red;
+}
+.ans {
+    position: absolute;
+    left: 10.0rem;
+    height: 15.0rem;
+    width: 64.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.0rem;
+     border: .5px solid red;
+}
+#ques1 {
+    top: 422.4rem;
+}
+#ques2 {
+    top: 449.7rem;
+}
+#ans1 {
+    top: 429.1rem;
+    color: #81889E;
+}
+#ans2 {
+    top: 456.4rem;
+    color: #81889E;
+}
+#part10 {
+    position: absolute;
+    top: 486.4rem;
+    height: 35.7rem;
+    width: 100%;
+    background-color: #F1F4FA;
+    border: .5px solid red;
+}
+#logo2 {
+    position: absolute;
+    top: 8.0rem;
+    width: 4rem;
+    border: .5px solid red;
+    left: 10.0rem;
+}
+#name_2 {
+    position: absolute;
+    border: .5px solid red;
+    top: 8.5rem;
+    left: 14.978rem;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 3.0rem;
+}
+#about_3 {
+    text-decoration: none;
+    color: #81889E;
+    position: absolute;
+     border: .5px solid red;
+    font-size: 1.6rem;
+    top: 8.0rem;
+    left: 76.1rem;
+
+}
+
+#works_3 {
+    text-decoration: none;
+    color: #81889E;
+    position: absolute;
+     border: .5px solid red;
+    top: 12.2rem;
+    font-size: 1.6rem;
+    left: 76.1rem;
+    
+}
+
+#contact_3 {
+    text-decoration: none;
+    color: #81889E;
+    position: absolute;
+    top: 16.4rem;
+    border: .5px solid red;
+    font-size: 1.6rem;
+    left: 76.1rem;
+}
+
+.logo_1 {
+    position: absolute;
+    left: 89.667rem;
+     border: .5px solid red;
+    
+}
+
+.social_1 {
+    position: absolute;
+    left: 92.7rem;
+    border: .5px solid red;
+    color: #81889E;
+    font-size: 1.6rem;
+}
+
+#insta_1 {
+    top: 8.267rem;
+}
+
+#face_1 {
+    top: 12.47rem;
+}
+
+#twitt_1 {
+    top: 16.833rem;
+}
+
+#instagram_1 {
+    top: 8.0rem;
+}
+
+#facebook_1 {
+    top: 12.2rem;
+}
+
+#twitter_1 {
+    top: 16.4rem;
+}
+
+#privacy {
+    position: absolute;
+    top: 30.2rem;
+    left: 86.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: .5px ;
+    border: .5px solid red;
+}
+
+#terms {
+    position: absolute;
+    top: 30.2rem;
+    left: 97.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: .5px solid red;
+}
+
+#rights {
+    position: absolute;
+    top: 30.25rem;
+    left: 10.0rem;
+    color: #81889E;
+    
+    font-size: 1.3rem;
+    font-weight: 500;
+} 
+@media only screen and (max-width:1100px){
+    html {
+        font-size: 50%;
+    }
+    
+}
+
+@media only screen and (max-width:698px){
+  
+    html {
+        font-size: 50%;
+    }
+    .section_1 {
+        font-size: 2rem;
+    }
+    #work_1 {
+        display: none;
+    }
+    #about_1 {
+       display: none;
+    }
+
+    #contact_1 {
+        display: none;
+    }
+    .part1 {
+        left: 10%;
+        top: 1.5rem;
+    }
+    #get {
+        left: 5%;
+        width: 90%; 
+        height: 23rem;
+        font-size: calc(4rem + 3.5vw) ;
+    }
+
+    #web {
+        top: 41rem;
+        left: 10%;
+        font-size: calc(1.5rem + 2vw);
+        width: 80%;
+        color: black;
+    }
+    #photo_1{
+        left: 0;
+        width: 98%;
+        border: none;
+        top: 71rem;
+    }
+    #first {
+        width: 80%;
+        padding-left: 10%;
+        height: 44rem;
+        overflow-y: scroll;
+    }
+    #lorem1 {
+        height: 25rem;
+        font-size: calc(1.4rem + 1.5vw);
+        overflow-y: scroll;
+        top: 117rem;
+        width: 80%;
+        left: 5%;
+
+    }
+    #num1{
+        top: 145rem;
+        left: 2rem;
+        font-size: calc(4rem + 2.4vw);
+    }
+    #sen1{
+        top: 154.5rem;
+        left: 2rem;
+    }
+    #num2{
+        top: 160rem;
+        left: 2rem ;
+        font-size: calc(4rem + 2.4vw);
+    }
+    #sen2{
+        top: 169.5rem;
+        left: 2rem;
+    }
+    #contact_2{
+        left: 60%;
+        font-size: calc(1rem + 1.6vw);
+        top: 145rem;
+        background-color: #39ff14;
+        color: black;
+        padding: 0;
+    }
+    #work_2{
+        top: 157rem;
+        left: 60%;
+        text-align: right;
+        font-size: calc(1rem + 2vw);
+    }
+    #about_2{
+        width: 8rem;
+        top: 151rem;
+        left: 60% ;
+        color: black;
+        background-color: white;
+        padding: 0%;
+    }
+    #work {
+        top: 188rem;
+        left: 1rem;
+        font-size: 4rem ;
+    }
+
+    #circle {
+        left: 13.5rem;
+        top: 188rem;
+    }
+
+    #arrow {
+        top: 189rem;
+        left: 14.7rem;
+    }
+    #sec {
+        top: 200rem;
+        left: 10%;
+        width: 80%;
+        height: 40rem;
+        overflow-y: scroll;
+    }
+    #we{
+        left: 30%;
+        margin: auto;
+        top: 241rem;
+    }
+    #third {
+        left: 5%;
+        width: 90%;
+        top: 248rem;
+        height: 32rem;
+        overflow-y: scroll;
+    }
+    #wellness{
+        top: 281.6rem;
+        left: 30%;
+    }
+    #forth {
+        left: 5%;
+        width: 90%;
+        top: 290rem;
+        height: 32rem;
+        overflow-y: scroll;
+    }
+    #medora{left: 30%; left: 1rem;
+        top: 323.5rem;
+    }
+    #fifth {
+        left: 10%;
+        width: 80%;
+        top: 332rem;
+        height: 40rem;
+        overflow-y: scroll;
+    }
+    #carnival{
+        left: 30%;
+        top: 378rem;
+    }
+    #part8{
+        top: 385rem;
+        height: 100rem;
+        width: 100%;
+    }
+    #review {
+        left:2rem;
+        top: 3rem;
+        font-size: 4rem;  
+        width: 70%;
+    }
+
+    #dp_1 {
+        left: 2rem;
+        top: 15rem;
+        width:3rem ;
+    }
+
+    #dp_2 {
+        left: 2rem;
+        top: 58rem;
+        width:3rem ;
+    }
+
+    #name1 {
+        left: 5.2rem;
+        top: 15rem;
+        font-size: 1.4rem;
+    }
+
+    #name2 {
+        left: 5.2rem;
+        top: 58rem;
+        font-size: 1.4rem;
+    }
+
+    #rating1 {
+        left: 5.2rem;
+        top: 16.5rem;
+    }
+    .star{
+        width: 2rem;
+    }
+    #rating2 {
+        left: 5.2rem;
+        top: 59.5rem;
+    }
+
+    #comment1 {
+        left: 10%;
+        width: 80%;
+        height: 30rem;
+        top: 22rem;
+        font-size: calc(1rem + 1.5vw) ;
+        overflow-y: scroll;
+    }
+
+    #comment2 {
+        left: 10%;
+        width: 80%;
+        height: 30rem;
+        top: 65rem;
+        font-size: calc(1rem + 1.5vw) ;
+        overflow-y: scroll;
+    }
+    #faqs {
+        left: 0;
+        top: 490rem;
+        width: 80%;
+        font-size: calc(2.5rem + 3.5vw);
+    }
+    .ques {
+        left: 3rem;
+        width: 80%;
+        border: none;
+        font-size: calc(1rem + 2vw);
+        height: 10rem;
+        overflow-y: scroll;
+    }
+    #ques1{
+        top: 500rem;
+    }
+    #ques2{
+        top: 540rem;
+    }
+    .ans {
+        left: 10%;
+        width: 80%;
+        height: 25rem;
+        overflow: scroll;
+    }
+    #ans1{
+        top: 510rem;
+    }
+    #ans2{
+        top: 550rem;
+    }
+    #part10{
+        width: 100%;
+        top: 582rem;
+    }
+    #logo2 {
+        left: 1rem;
+    }
+
+    #name_2 {
+        left: 5.4rem;
+        font-size: 1.5rem;
+    }
+    #about_3{
+        top: 18rem;
+        left: 3rem;
+    }
+    #works_3{
+        top: 18rem; ;
+        left: 9.36rem;
+    }
+    #contact_3{
+        top: 18rem; ;
+        left: 16rem;
+    }
+    .logo_1 {
+        display: none;
+    }
+
+    .social_1 {
+       display: none;
+    }
+    #terms {
+        top: 28rem;
+        left: 30%;
+        position: absolute;
+        font-size: 1.4rem;
+        width: 15rem;
+    }
+
+    #privacy {
+        font-size: 1.4rem;
+        position: absolute;
+        width: 10rem;
+        top: 31rem;
+        left: 30%;
+    }
+    #rights{
+        left: 3rem;
+        font-size: 1.4rem;
+        top: 25rem;
+    }
+    .burger{
+        display: inline-block;
+        position: absolute;
+        color: black;
+        top: 3rem;
+        left: 90%;
+        font-size: 5rem;
+    }
+    .side{
+        display: block;
+        font-size: 2.8rem;
+        width: 0;
+        color: white;
+        padding: 6rem 3rem 0 30%;
+    }
+    .sidenav{
+        margin-top: 6rem;
+        width: 0;
+        transition: 1s;
+        background-color: #000;
+    }
+    .logo_2{
+        filter: invert(100);
+    }
+    .close{
+        position: absolute;
+        font-size: 3rem;
+        padding-top: 1rem;
+        top: 6rem;
+        right: 10%;
+    }
+}
